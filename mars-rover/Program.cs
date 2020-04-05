@@ -28,7 +28,7 @@ namespace mars_rover
             Console.WriteLine(roverManager.GetStatusText());
 
             rover.SetLocation(3, 3, RotationEnum.E);
-            roverManager.ExecuteCommand("MMRMMRMRRMMMMMM");
+            roverManager.ExecuteCommand("MMRMMRMRRM");
             Console.WriteLine(roverManager.GetStatusText());
             Console.ReadKey();
         }
